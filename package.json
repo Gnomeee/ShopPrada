@@ -1,0 +1,12 @@
+{
+  "name": "prepros-project",
+  "version": "1.0.0",
+  "description": "This is a dummy package.json file created by Prepros to manage packages with NPM. You can edit this file to add your own information.",
+  "dependencies": {
+    "connect": "3.7.0",
+    "fs-extra": "9.1.0",
+    "locate-path": "6.0.0",
+    "opn": "6.0.0",
+    "picomatch": "2.2.3"
+  }
+}

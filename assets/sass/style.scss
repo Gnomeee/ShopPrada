@@ -1,0 +1,30 @@
+@import "nullstyle.scss";
+@import "header.scss";
+@import "mainstyle.scss";
+@import "footerstyle.scss";
+
+.container {
+    max-width: 1264px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+body, html {
+    height: 100%;
+}
+main {
+    flex: 1 0 auto;
+}
+
+@media all and (max-width: 768px)  {
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+    }
